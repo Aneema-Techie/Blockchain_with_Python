@@ -1,1 +1,152 @@
 # Blockchain_with_Python
+
+Instructions
+Open the pychain.py file that your git cloned files include. You’ll use this file to complete the steps for this application.
+
+## The steps for this application are divided into the following sections:
+
+   * Create a Record Data Class  
+
+   * Modify the Existing Block Data Class to Store  
+
+   * Record Data  
+
+   * Add Relevant User Inputs to the Streamlit Interface  
+
+## Test the PyChain Ledger by Storing Records  
+
+# Step 1: Create a Record Data Class  
+
+Define a new Python data class named Record. Give this new class a formalized data structure that consists of the sender, receiver, and amount attributes. To do so, complete the following steps:
+
+Define a new class named Record.
+
+   * Add the @dataclass decorator immediately before the Record class definition.
+
+   * Add an attribute named sender of type str.
+
+   * Add an attribute named receiver of type str.
+
+   * Add an attribute named amount of type float.
+
+Note that you’ll use this new Record class as the data type of your record attribute in the next section.
+
+## Step 2: Modify the Existing Block Data Class to Store Record Data
+Rename the data attribute in your Block class to record, and then set it to use an instance of the new Record class that you created in the previous section. To do so, complete the following steps:
+
+In the Block class, rename the data attribute to record.
+
+Set the data type of the record attribute to Record.
+
+Step 3: Add Relevant User Inputs to the Streamlit Interface
+Code additional input areas for the user interface of your Streamlit application. Create these input areas to capture the sender, receiver, and amount for each transaction that you’ll store in the Block record. To do so, complete the following steps:
+
+   * Delete the input_data variable from the Streamlit interface.
+
+   * Add an input area where you can get a value for sender from the user.
+
+   * Add an input area where you can get a value for receiver from the user.
+
+   * Add an input area where you can get a value for amount from the user.
+
+As part of the Add Block button functionality, update new_block so that Block consists of an attribute named record, which is set equal to a Record that contains the sender, receiver, and amount values. The updated Blockshould also include the attributes for creator_id and prev_hash.
+
+## Step 4: Test the PyChain Ledger by Storing Records
+Test your complete PyChain ledger and user interface by running your Streamlit application and storing some mined blocks in your PyChain ledger. Then test the blockchain validation process by using your PyChain ledger. To do so, complete the following steps:
+
+In the terminal, navigate to the project folder where you've coded the Challenge.
+
+In the terminal, run the Streamlit application by using streamlit run pychain.py.
+
+Enter values for the sender, receiver, and amount, and then click the Add Block button. Do this several times to store several blocks in the ledger.
+
+Verify the block contents and hashes in the Streamlit drop-down menu. Take a screenshot of the Streamlit application page, which should detail a blockchain that consists of multiple blocks. Include the screenshot in the README.md file for your Challenge repository.
+
+Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the README.md file for your Challenge repository.
+
+# Requirements
+
+* Step 1: Create a Record Data Class 
+To receive all points, you must:
+
+Successfully define a new class named Record. 
+
+Implement the required class attributes for the Record class. 
+
+* Step 2: Modify the Existing Block Data Class to Store Record Data (20 points)
+To receive all points, you must:
+
+Rename the data attribute in the Block class to record. (10 points)
+
+Set the data type of the record attribute to Record. (10 points)
+
+* Step 3: Add Relevant User Inputs to the Streamlit Interface (20 points)
+To receive all points, you must:
+
+Add the correct user inputs for getting the sender, receiver, and amount. (10 points)
+
+Correctly update the Add Block button functionality. (10 points)
+
+Step 4: Test the PyChain Ledger by Storing Records (10 points)
+To receive all points, you must:
+
+Test the functionality of your chain. In the README.md file for your GitHub repository, include a screenshot that contains a blockchain consisting of several blocks. (5 points)
+
+Confirm that your blockchain is valid. In the README.md file of your GitHub repository, include a screenshot of the Streamlit application page displaying “Blockchain is Valid.” (5 points)
+
+Coding Conventions and Formatting (10 points)
+To receive all points, your code must:
+
+Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (3 points)
+
+Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
+
+Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (3 points)
+
+Use concise logic and creative engineering where possible. (2 points)
+
+Deployment and Submission (10 points)
+To receive all points, you must:
+
+Submit a link to a GitHub repository that’s cloned to your local machine and that contains your files. (4 points)
+
+Use the command line to add your files to the repository. (3 points)
+
+Include appropriate commit messages for your files. (3 points)
+
+
+
+
+
+* This is the PyChain Blockchain application's `first inputs`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.48.55 PM.png
+
+* First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.49.12 PM.png
+
+* Transaction hash mined creating `Second link in chain` `difficulty of 2`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.50.12 PM.png
+
+* Third link in chain `difficulty of 4` about 
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.51.04 PM.png
+
+* Validate the chain `Every five transactions` after a transaction `difficulty of 5`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.52.22 PM.png
+
+* Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.53.24 PM.png
+
+* Blockchain `ledger from the streamlit` app
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 2.04.14 PM.png
+
+* This is the `Winning hash ledger from computer terminal`
+/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 2.05.03 PM.png
+
+* Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For reserch purpose will limit to difficulty of 6 for this repository. 
+
+* I made the same transaction times over to display how every transcation is unique due to timestamp and nonce. 
+
+* Returning customers sending Eth to different businesses and private wallets.
+
+* Block difficulty limits were coded to raise the `max difficulty to 10` and the `standard diffiuclty set at 4`
+
