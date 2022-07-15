@@ -68,37 +68,37 @@ Test the blockchain validation process by using the web interface. Take a screen
 
 ### *First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`:* 
 
-![GenesisBlock](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![GenesisBlock](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *Transaction hash mined creating `Second link in chain` `difficulty of 2`:* 
 
-![FistChain](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![FistChain](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *Third link in chain `difficulty of 4` about 5 seconds to find hash:* 
 
-![DifficultyOf4](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![DifficultyOf4](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *Validate the chain `Every five transactions` after a transaction `difficulty of 5`:* 
 
-![Validation](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![Validation](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`:* 
 
-![8MinutesToHash](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![8MinutesToHash](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *Blockchain `ledger from the streamlit` app:* 
 
-![StreamlitLedger](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![StreamlitLedger](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 ### *This is the `Winning hash ledger from computer terminal`:* 
 
-![Back-endWinningHashes](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+![Back-endWinningHashes](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
 
 * Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For research purpose will limit to difficulty of 6 for this repository.  
