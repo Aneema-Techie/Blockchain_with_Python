@@ -81,11 +81,6 @@ Test the blockchain validation process by using the web interface. Take a screen
 ![DifficultyOf4](Images/ScreenShot2022-07-14at1.51.04PM.png) 
 
 
-### *Validate the chain `Every five transactions` after a transaction `difficulty of 5`:* 
-
-![Validation](Images/ScreenShot2022-07-14at1.53.24PM.png) 
-
-
 ### *Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`:* 
 
 ![8MinutesToHash](Images/ScreenShot2022-07-14at1.53.24PM.png) 
