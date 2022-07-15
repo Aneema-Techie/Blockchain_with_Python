@@ -66,34 +66,48 @@ Test the blockchain validation process by using the web interface. Take a screen
 
 
 
-* First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`
+### *First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`:* 
+
 ![GenesisBlock](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Transaction hash mined creating `Second link in chain` `difficulty of 2`
+
+### *Transaction hash mined creating `Second link in chain` `difficulty of 2`:* 
+
 ![FistChain](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Third link in chain `difficulty of 4` about 5 seconds to find hash
+
+### *Third link in chain `difficulty of 4` about 5 seconds to find hash:* 
+
 ![DifficultyOf4](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Validate the chain `Every five transactions` after a transaction `difficulty of 5`
+
+### *Validate the chain `Every five transactions` after a transaction `difficulty of 5`:* 
+
 ![Validation](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`
+
+### *Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`:* 
+
 ![8MinutesToHash](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Blockchain `ledger from the streamlit` app
-![TreamlitLedger](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* This is the `Winning hash ledger from computer terminal`
+### *Blockchain `ledger from the streamlit` app:* 
+
+![StreamlitLedger](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
+
+
+### *This is the `Winning hash ledger from computer terminal`:* 
+
 ![Back-endWinningHashes](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For reserch purpose will limit to difficulty of 6 for this repository. 
 
-* I made the same transaction times over to display how every transcation is unique due to timestamp and nonce. 
+* Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For research purpose will limit to difficulty of 6 for this repository.  
 
-* Returning customers sending Eth to different businesses and private wallets.
+* I made the same transaction times over to display how every transcation is unique due to timestamp and nonce.  
 
-* Block difficulty limits were coded to raise the `max difficulty to 10` and the `standard diffiuclty set at 4`
+* Returning customers sending Eth to different businesses and private wallets.  
+
+* Block difficulty limits were coded to raise the `max difficulty to 10` and the `standard diffiuclty set at 4`  
 
 ## Contributor
 
