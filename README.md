@@ -66,7 +66,7 @@ Test the blockchain validation process by using the web interface. Take a screen
 
 
 
-### *First transaction running shows `Genesis block` `difficulty of 1` `about 1 second`:* 
+### *First transaction running shows `Genesis block` `difficulty of 1` `about 1 second to find winning hash`:* 
 
 ![GenesisBlock](Images/ScreenShot2022-07-14at1.49.12PM.png) 
 
