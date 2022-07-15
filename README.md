@@ -64,36 +64,6 @@ Verify the block contents and hashes in the Streamlit drop-down menu. Take a scr
 
 Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the README.md file for your Challenge repository.
 
-# Requirements
-
-* Step 1: Create a Record Data Class 
-To receive all points, you must:
-
-Successfully define a new class named Record. 
-
-Implement the required class attributes for the Record class. 
-
-* Step 2: Modify the Existing Block Data Class to Store Record Data (20 points)
-To receive all points, you must:
-
-Rename the data attribute in the Block class to record. (10 points)
-
-Set the data type of the record attribute to Record. (10 points)
-
-* Step 3: Add Relevant User Inputs to the Streamlit Interface (20 points)
-To receive all points, you must:
-
-Add the correct user inputs for getting the sender, receiver, and amount. (10 points)
-
-Correctly update the Add Block button functionality. (10 points)
-
-Step 4: Test the PyChain Ledger by Storing Records (10 points)
-To receive all points, you must:
-
-Test the functionality of your chain. In the README.md file for your GitHub repository, include a screenshot that contains a blockchain consisting of several blocks. (5 points)
-
-
-
 
 
 * First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`
