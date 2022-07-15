@@ -92,55 +92,30 @@ To receive all points, you must:
 
 Test the functionality of your chain. In the README.md file for your GitHub repository, include a screenshot that contains a blockchain consisting of several blocks. (5 points)
 
-Confirm that your blockchain is valid. In the README.md file of your GitHub repository, include a screenshot of the Streamlit application page displaying “Blockchain is Valid.” (5 points)
-
-Coding Conventions and Formatting (10 points)
-To receive all points, your code must:
-
-Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (3 points)
-
-Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
-
-Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (3 points)
-
-Use concise logic and creative engineering where possible. (2 points)
-
-Deployment and Submission (10 points)
-To receive all points, you must:
-
-Submit a link to a GitHub repository that’s cloned to your local machine and that contains your files. (4 points)
-
-Use the command line to add your files to the repository. (3 points)
-
-Include appropriate commit messages for your files. (3 points)
 
 
 
-
-
-* This is the PyChain Blockchain application's `first inputs`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.48.55 PM.png
 
 * First transaction running shows `Genesis block` `difficulty of 1` `about 40 seconds`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.49.12 PM.png
+![GenesisBlock](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * Transaction hash mined creating `Second link in chain` `difficulty of 2`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.50.12 PM.png
+![FistChain](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
-* Third link in chain `difficulty of 4` about 
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.51.04 PM.png
+* Third link in chain `difficulty of 4` about 5 seconds to find hash
+![DifficultyOf4](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * Validate the chain `Every five transactions` after a transaction `difficulty of 5`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.52.22 PM.png
+![Validation](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 1.53.24 PM.png
+![8MinutesToHash](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * Blockchain `ledger from the streamlit` app
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 2.04.14 PM.png
+![TreamlitLedger](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * This is the `Winning hash ledger from computer terminal`
-/Users/Rensley/Desktop/png_18/Screen Shot 2022-07-14 at 2.05.03 PM.png
+![Back-endWinningHashes](Images/Screen Shot 2022-07-14 at 1.49.12 PM.png) 
 
 * Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For reserch purpose will limit to difficulty of 6 for this repository. 
 
@@ -149,4 +124,12 @@ Include appropriate commit messages for your files. (3 points)
 * Returning customers sending Eth to different businesses and private wallets.
 
 * Block difficulty limits were coded to raise the `max difficulty to 10` and the `standard diffiuclty set at 4`
+
+## Contributor
+
+Rensley Ramos - ranly196@gmail.com, https://www.linkedin.com/in/rensley-2-nfty/
+
+
+
+
 
