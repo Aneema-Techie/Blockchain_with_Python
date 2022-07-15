@@ -73,32 +73,32 @@ Test the blockchain validation process by using the web interface. Take a screen
 
 ### *Transaction hash mined creating `Second link in chain` `difficulty of 2`:* 
 
-![FistChain](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![FistChain](Images/ScreenShot2022-07-14at1.50.12PM.png) 
 
 
 ### *Third link in chain `difficulty of 4` about 5 seconds to find hash:* 
 
-![DifficultyOf4](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![DifficultyOf4](Images/ScreenShot2022-07-14at1.51.04PM.png) 
 
 
 ### *Validate the chain `Every five transactions` after a transaction `difficulty of 5`:* 
 
-![Validation](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![Validation](Images/ScreenShot2022-07-14at1.53.24PM.png) 
 
 
 ### *Customer sending payment `Difficulty of 6` about `8 minutes to get winning Hash`:* 
 
-![8MinutesToHash](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![8MinutesToHash](Images/ScreenShot2022-07-14at1.53.24PM.png) 
 
 
 ### *Blockchain `ledger from the streamlit` app:* 
 
-![StreamlitLedger](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![StreamlitLedger](Images/ScreenShot2022-07-14at2.04.05PM.png) 
 
 
-### *This is the `Winning hash ledger from computer terminal`:* 
+### *This is the `Winning hash ledger from computer terminal` Validating the chain every five transactions:* 
 
-![Back-endWinningHashes](Images/ScreenShot2022-07-14at1.49.12PM.png) 
+![Back-endWinningHashes](Images/ScreenShot2022-07-14at2.05.03PM.png) 
 
 
 * Went up to `difficulty of 8` and `after two hours I stopped the hashing`. For research purpose will limit to difficulty of 6 for this repository.  
